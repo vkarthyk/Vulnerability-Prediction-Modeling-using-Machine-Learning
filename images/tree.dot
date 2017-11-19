@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="number_pets <= 3.0308\nimpurity = 1.0\nsamples = 500\nvalue = [250, 250]"] ;
+1 [label="impurity = 0.2589\nsamples = 229\nvalue = [219, 10]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="impurity = 0.513\nsamples = 271\nvalue = [31, 240]"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
